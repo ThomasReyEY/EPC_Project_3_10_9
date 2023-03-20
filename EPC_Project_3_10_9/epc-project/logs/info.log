@@ -1,0 +1,25 @@
+2023-03-20 16:01:40,521 - kedro.framework.session.session - INFO - Kedro project epc-project
+2023-03-20 16:01:43,734 - kedro_telemetry.plugin - WARNING - Failed to send data to Heap. Exception of type 'SSLError' was raised.
+2023-03-20 16:05:13,414 - kedro_telemetry.plugin - WARNING - Failed to send data to Heap. Exception of type 'SSLError' was raised.
+2023-03-20 16:05:13,461 - kedro.ipython - INFO - Kedro project EPC_Project
+2023-03-20 16:05:13,461 - kedro.ipython - INFO - Defined global variable 'context', 'session', 'catalog' and 'pipelines'
+2023-03-20 16:05:15,571 - py.warnings - WARNING - C:\Users\LR672KH\AppData\Local\pypoetry\Cache\virtualenvs\epc-project-3-10-9-KAnToqef-py3.10\lib\site-packages\jupyter_client\connect.py:20: DeprecationWarning: Jupyter is migrating its paths to use standard platformdirs
+given by the platformdirs library.  To remove this warning and
+see the appropriate new directories, set the environment variable
+`JUPYTER_PLATFORM_DIRS=1` and then run `jupyter --paths`.
+The use of platformdirs will be the default in `jupyter_core` v6
+  from jupyter_core.paths import jupyter_data_dir, jupyter_runtime_dir, secure_write
+
+2023-03-20 16:05:15,709 - kedro.ipython - INFO - Registered line magic 'run_viz'
+2023-03-20 16:05:34,835 - kedro.io.data_catalog - INFO - Loading data from 'companies' (CSVDataSet)...
+2023-03-20 16:06:03,348 - kedro.io.data_catalog - INFO - Loading data from 'shuttles' (ExcelDataSet)...
+2023-03-20 16:07:01,685 - kedro.framework.session.session - INFO - Kedro project epc-project
+2023-03-20 16:07:05,320 - kedro_telemetry.plugin - WARNING - Failed to send data to Heap. Exception of type 'SSLError' was raised.
+2023-03-20 16:07:05,351 - kedro.io.data_catalog - INFO - Loading data from 'companies' (CSVDataSet)...
+2023-03-20 16:07:05,389 - kedro.pipeline.node - INFO - Running node: preprocess_companies_node: preprocess_companies([companies]) -> [preprocessed_companies]
+2023-03-20 16:07:05,405 - kedro.io.data_catalog - INFO - Saving data to 'preprocessed_companies' (MemoryDataSet)...
+2023-03-20 16:07:05,405 - kedro.runner.sequential_runner - INFO - Completed 1 out of 1 tasks
+2023-03-20 16:07:05,405 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.
+2023-03-20 16:07:05,420 - kedro.io.data_catalog - INFO - Loading data from 'preprocessed_companies' (MemoryDataSet)...
+2023-03-20 16:08:23,440 - kedro_telemetry.plugin - WARNING - Failed to send data to Heap. Exception of type 'SSLError' was raised.
+2023-03-20 16:47:11,649 - kedro_telemetry.plugin - WARNING - Failed to send data to Heap. Exception of type 'SSLError' was raised.
